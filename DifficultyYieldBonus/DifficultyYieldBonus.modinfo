@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ef4317c5-fa5f-4e3c-a9c3-58b1be665b24" version="1.1">
+	<Properties>
+		<Name>UnweariedMule65's Difficulty Yield-Bonus</Name>
+		<Teaser>
+			Did you ever wanted to play with friends in multiplayer, but their skill-level is much better or worse than yours? [NEWLINE] Now you can use the difficulty setting chosen for each human (!) player to give them a yield-bonus oder penalty to create more balanced games!
+		</Teaser>
+		<Description>This mod adds a Yield-Modifier (separate values for science, culture, faith vs. production and gold). The AI-players are NOT affected by this mod. This will affect single player games as well. Built off of Skyrist's Difficulty Yield Bonus Mod, this mod stratifies the bonuses more and without negative yields.
+		</Description>
+		<Authors>UnweariedMule65</Authors>
+		<SpecialThanks>Skyrist</SpecialThanks>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+
+	<Components>
+		<UpdateDatabase id="PLAYER_DIFF_YIELD_BONUS">
+			<Items>
+ 				<File>DifficultyYieldBonus.sql</File>
+			</Items>
+		</UpdateDatabase>		
+	</Components>
+
+	<Files>
+		<File>DifficultyYieldBonus.sql</File>		
+	</Files>
+</Mod>
