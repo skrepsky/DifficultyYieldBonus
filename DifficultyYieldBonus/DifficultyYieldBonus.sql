@@ -13,8 +13,7 @@ INSERT INTO Modifiers (ModifierId, ModifierType, OwnerRequirementSetId) VALUES
 	('FAITH_YIELD_DIFFICULTY_SCALING_PLAYER', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER', 'PLAYER_IS_HUMAN');
 	
 	
---- For Science, Culture and Faith, start at 42 bonus on Settler and decrease by 6, ending at 0 on Deity
---- For Production and  Gold, start at 21 bonus on Settler and decrease by 3, ending at 0 on Deity
+--- For Science, Culture and Faith, start at 42 bonus on Settler and decrease by 6, ending at 0 on Deity; For Production and  Gold, start at 21 bonus on Settler and decrease by 3, ending at 0 on Deity
 INSERT INTO ModifierArguments (ModifierId, Name, Type, Value, Extra, SecondExtra) VALUES
 	('SCIENCE_YIELD_DIFFICULTY_SCALING_PLAYER', 'YieldType', 'ARGTYPE_IDENTITY', 'YIELD_SCIENCE', '', 'DIFFICULTY_SETTLER'),
 	('SCIENCE_YIELD_DIFFICULTY_SCALING_PLAYER', 'Amount', 'LinearScaleFromDefaultHandicap', 42, -6, 'DIFFICULTY_SETTLER'),
