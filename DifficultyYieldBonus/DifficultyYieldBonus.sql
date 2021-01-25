@@ -16,12 +16,12 @@ INSERT INTO Modifiers (ModifierId, ModifierType, OwnerRequirementSetId) VALUES
 --- For Science, Culture and Faith, start at 42 bonus on Settler and decrease by 6, ending at 0 on Deity; For Production and  Gold, start at 21 bonus on Settler and decrease by 3, ending at 0 on Deity
 INSERT INTO ModifierArguments (ModifierId, Name, Type, Value, Extra, SecondExtra) VALUES
 	('SCIENCE_YIELD_DIFFICULTY_SCALING_PLAYER', 'YieldType', 'ARGTYPE_IDENTITY', 'YIELD_SCIENCE', '', 'DIFFICULTY_SETTLER'),
-	('SCIENCE_YIELD_DIFFICULTY_SCALING_PLAYER', 'Amount', 'LinearScaleFromDefaultHandicap', 42, -6, 'DIFFICULTY_SETTLER'),
+	('SCIENCE_YIELD_DIFFICULTY_SCALING_PLAYER', 'Amount', 'LinearScaleFromDefaultHandicap', 15, -6, 'DIFFICULTY_SETTLER'),
 	('CULTURE_YIELD_DIFFICULTY_SCALING_PLAYER', 'YieldType', 'ARGTYPE_IDENTITY', 'YIELD_CULTURE', '', 'DIFFICULTY_SETTLER'),
-	('CULTURE_YIELD_DIFFICULTY_SCALING_PLAYER', 'Amount', 'LinearScaleFromDefaultHandicap', 42, -6, 'DIFFICULTY_SETTLER'),
+	('CULTURE_YIELD_DIFFICULTY_SCALING_PLAYER', 'Amount', 'LinearScaleFromDefaultHandicap', 30, -6, 'DIFFICULTY_SETTLER'),
 	('PRODUCTION_YIELD_DIFFICULTY_SCALING_PLAYER', 'YieldType', 'ARGTYPE_IDENTITY', 'YIELD_PRODUCTION', '', 'DIFFICULTY_SETTLER'),
-	('PRODUCTION_YIELD_DIFFICULTY_SCALING_PLAYER', 'Amount', 'LinearScaleFromDefaultHandicap', 21, -3, 'DIFFICULTY_SETTLER'),
+	('PRODUCTION_YIELD_DIFFICULTY_SCALING_PLAYER', 'Amount', 'LinearScaleFromDefaultHandicap', 15, -3, 'DIFFICULTY_SETTLER'),
 	('GOLD_YIELD_DIFFICULTY_SCALING_PLAYER', 'YieldType', 'ARGTYPE_IDENTITY', 'YIELD_GOLD', '', 'DIFFICULTY_SETTLER'),
-	('GOLD_YIELD_DIFFICULTY_SCALING_PLAYER', 'Amount', 'LinearScaleFromDefaultHandicap', 21, -3, 'DIFFICULTY_SETTLER'),
+	('GOLD_YIELD_DIFFICULTY_SCALING_PLAYER', 'Amount', 'LinearScaleFromDefaultHandicap', 15, -3, 'DIFFICULTY_SETTLER'),
 	('FAITH_YIELD_DIFFICULTY_SCALING_PLAYER', 'YieldType', 'ARGTYPE_IDENTITY', 'YIELD_FAITH', '', 'DIFFICULTY_SETTLER'),
-	('FAITH_YIELD_DIFFICULTY_SCALING_PLAYER', 'Amount', 'LinearScaleFromDefaultHandicap', 42, -6, 'DIFFICULTY_SETTLER');
+	('FAITH_YIELD_DIFFICULTY_SCALING_PLAYER', 'Amount', 'LinearScaleFromDefaultHandicap', 30, -6, 'DIFFICULTY_SETTLER');

@@ -3,11 +3,11 @@ Mod for Civilization VI that provides yield bonuses based on a player's difficul
 
 | Difficulty | Bonus for Science, Culture, Faith | Bonus for Production and Gold
 | ------------- | ------------- | ------------- |
-| Settler  | +42%  | +21%  |
-| Chieftain | +36%  | +18%  |
-| Warlord | +30% | +15%  |
-| Prince  | +24% | +12% |
-| King  | +18%  | +9% |
-| Emperor  | +12%  | +6% |
-| Immortal | +6%  | +3%  |
-| Deity | 0% | 0% |
+| Settler  | +30%  | +15%  |
+| Chieftain | +24%  | +12%  |
+| Warlord | +18% | +9%  |
+| Prince  | +12% | +6% |
+| King  | +6%  | +3% |
+| Emperor  | 0%  | 0% |
+| Immortal | -6%  | -3%  |
+| Deity | -12% | -6% |
