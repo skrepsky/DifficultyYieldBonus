@@ -5,7 +5,7 @@
 		<Teaser>
 			Did you ever wanted to play with friends in multiplayer, but their skill-level is much better or worse than yours? [NEWLINE] Now you can use the difficulty setting chosen for each human (!) player to give them a yield-bonus oder penalty to create more balanced games!
 		</Teaser>
-		<Description>This mod adds a Yield-Modifier (separate values for science, culture, faith vs. production and gold). The AI-players are NOT affected by this mod. This will affect single player games as well. Built off of Skyrist's Difficulty Yield Bonus Mod, this mod stratifies the bonuses more. https://github.com/skrepsky/DifficultyYieldBonus/blob/master/README.md
+		<Description>This mod adds a Yield-Modifier (separate values for science, culture, faith vs. production and gold). The AI-players are NOT affected by this mod. This will affect single player games as well. Built off of Skyrist's Difficulty Yield Bonus Mod, but this mod stratifies the bonuses more. https://github.com/skrepsky/DifficultyYieldBonus/blob/master/README.md
 		</Description>
 		<Authors>UnweariedMule65</Authors>
 		<SpecialThanks>Skyrist</SpecialThanks>
